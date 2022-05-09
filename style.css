@@ -34,10 +34,10 @@ html {
     padding: 3rem;
 }
 
-.phone__nav {
+/* .phone__nav {
     transform: translateY(-100%);
     display: none;
-}
+} */
 
 .show__nav {
     z-index: 300;
@@ -48,21 +48,13 @@ html {
     animation: show .3s;
     position: sticky;
     display: none;
+    transform: translateY(-100%);
+    transition: all .3s;
 }
 
 
 
-@keyframes show {
-    0% {
-        transform: translateY(-100%);
-    }
-    50% {
-        transform: translateY(-30%);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
+
 
 .menu {
     font-size: 4rem;
@@ -138,10 +130,10 @@ html {
     max-height: 100vh;
     position: sticky;
     top: 0;
-    /* background: linear-gradient(to bottom,  rgba(0,0,0,.5), rgba(0,0,0, .6)), url("../img/maxy.jpeg");
+    background: linear-gradient(to bottom,  rgba(0,0,0,.5), rgba(0,0,0, .6)), url("../img/maxy.jpeg");
     background-size:inherit;
     background-position: center center;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     
 }
 
@@ -519,7 +511,7 @@ html {
     .dev__image {
         width: 100%;
         height: 50vh;
-        background: linear-gradient(to bottom,  rgba(0,0,0,.5), rgba(0,0,0, .6)), url("../img/maxy.jpeg");
+        /* background: linear-gradient(to bottom,  rgba(0,0,0,.5), rgba(0,0,0, .6)), url("../img/maxy.jpeg"); */
         background-size:cover;
         background-position:center;
         background-repeat: no-repeat;
@@ -560,8 +552,9 @@ html {
         border-radius: 0;
         box-shadow: none;
     }
-    .show__nav {
+    .show {
         display: flex;
+        transform: translateY(0);
     }
 
     .dev__name {
