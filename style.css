@@ -270,11 +270,13 @@ html {
 }
 
 .dev__scroll--about h1 {
+    text-align: center;
     font-size: 6rem;
     margin-bottom: 3rem;
 }
 
 .dev__scroll--about h4 {
+    text-align: center;
     font-size: 2rem;
     color: #ff8157;
     font-weight: bold;
@@ -305,11 +307,13 @@ html {
 }
 
 .dev__scroll--skill h1 {
+    text-align: center;
     font-size: 6rem;
     margin-bottom: 3rem;
 }
 
 .dev__scroll--skill h4 {
+    text-align: center;
     font-size: 2rem;
     color: #ff8157;
     font-weight: bold;
@@ -354,11 +358,13 @@ html {
 }
 
 .dev__scroll--portfolio h1 {
+    text-align: center;
     font-size: 6rem;
     margin-bottom: 3rem;
 }
 
 .dev__scroll--portfolio h4 {
+    text-align: center;
     font-size: 2rem;
     color: #ff8157;
     font-weight: bold;
@@ -585,8 +591,7 @@ html {
     }
 
     .dev__scroll--skill-tools {
-        display: flex;
-        justify-content: center;
+        margin-left: 10rem;
     }
  }
 
