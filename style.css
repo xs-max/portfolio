@@ -591,7 +591,7 @@ html {
 
  @media only screen and (max-width: 600px) { 
     html {
-        font-size: 30%;
+        font-size: 40%;
     }
 
     .dev__scroll--skill-tools {
