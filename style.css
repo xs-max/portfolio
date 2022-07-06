@@ -44,12 +44,11 @@ html {
     flex-direction: column;
     justify-content:flex-start;
     align-items:flex-start;
-    height: 50rem;
-    animation: show .3s;
+    height: 0;
     position: sticky;
-    display: none;
     transform: translateY(-100%);
     transition: all .3s;
+    overflow: hidden;
 }
 
 
@@ -502,6 +501,10 @@ html {
         font-size: 50%;
     }
 
+    .header {
+        height: 10rem;
+    }
+
     .page__wrapper {
         flex-direction: column;
         justify-content: center;
@@ -560,6 +563,7 @@ html {
     }
     .show {
         display: flex;
+        height: 50rem;
         transform: translateY(0);
     }
 
